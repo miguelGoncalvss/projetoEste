@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pick a Date</title>
+    <title>Escolha a Data</title>
     <link rel="stylesheet" href="date.css">
     <script src="date.js" defer></script>
-    
 </head>
 <body>
 
     <div class="container">
 
-        <video autoplay loop muted>
-            <source src="happyMelody.mp4" type="video/mp4">
-        </video>
-        <h1>Yayyyyyyyyy! </h1>
-        <h1>Now Choose a Date & Time 💖</h1>
-        <input type="datetime-local" id="dateInput">
-        <button onclick="showDate()">Confirm</button>
+        <div class="gif-container">
+            <div class="tenor-gif-embed" data-postid="19354605" data-share-method="host" data-aspect-ratio="0.5625" data-width="100%"><a href="https://tenor.com/view/cat-cat-jumping-cat-excited-excited-dance-gif-19354605">Cat Cat Jumping GIF</a>from <a href="https://tenor.com/search/cat-gifs">Cat GIFs</a></div>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+
+        <h1>Ebaaaaaaaa! 🎉</h1>
+        <h1>Que bom que escolheu por livre espontanea pressao 💖</h1>
+        <h1>Agora escolha a data e o horário 💖</h1>
+        <input type="datetime-local" id="dateInput" min="2026-01-01T00:00" max="2026-12-31T23:59">
+        <button onclick="showDate()">Confirmar</button>
         <p id="dateDisplay"></p>
 
     </div>
